@@ -1,8 +1,10 @@
 
-var slider = document.getElementById("myRange");
-var slider2 = document.getElementById("myRange2");
-var output = document.getElementById("demo");
-var output2 = document.getElementById("demo2");
+const slider = document.getElementById("myRange");
+const slider2 = document.getElementById("myRange2");
+const output = document.getElementById("demo");
+const output2 = document.getElementById("demo2");
+const resultText = document.getElementById("result");
+const resultTextButton = document.getElementById("resultButton");
 
 
 
@@ -51,12 +53,16 @@ function calculateFuelPrice () {
   
   let a = parseInt(prices.conbustion);
   let b = parseInt(prices.hybrid);
-
+  let tmpText
   if (a > b) {
-    console.log("Car with hybrid engine is cheaper in exploitation then a car with conbustion engine with given data")
+    tmpText = "Car with hybrid engine is cheaper in exploitation then a car with conbustion engine with given data"
   }
   else {
-    console.log("Car with conbustion engine is cheaper in exploitation then a car with hybrid engine with given data")
+    tmpText = "Car with conbustion engine is cheaper in exploitation then a car with hybrid engine with given data"
   }
+  resultText.innerHTML = tmpText
  }
   
+
+
+ resultTextButton.addEventListener("click", calculateFuelPrice, false)

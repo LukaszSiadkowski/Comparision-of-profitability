@@ -7,21 +7,27 @@
 </head>
 
 <body>
-  <h1> Comparison of profitability</h1>
-  <h2>For this comparison we will assume that 1 liter of petrol cost 5 zl</h2>
-  <p>Silde to establish how much km (monthly) you drive in a city</p>
+  <h1 class="texting"> Comparison of profitability</h1>
+  <h2 class="texting">For this comparison we will assume that 1 liter of petrol cost 5 zl</h2>
+  <p class="texting"> Silde to establish how much km (monthly) you drive in a city</p>
 
   <div class="slidecontainer">
     <input type="range" min="1" max="10000" value="50" class="slider" id="myRange">
-    <p>My car drove (KM): <span id="demo"></span></p>
+    <p class="texting">My car drove (KM): <span id="demo"></span></p>
   </div>
 
-  <p>Silde to establish how much km (monthly) you drive out of a city (for ex. highway, offroad)</p>
+  <p class="texting">Silde to establish how much km (monthly) you drive out of a city (for ex. highway, offroad)</p>
 
   <div class="slidecontainer">
-    <input type="range" min="1" max="10000" value="50" class="slider" id="myRange2">
-    <p> My car drove (KM): <span id="demo2"></span></p>
+    <input type="range" min="1" max="10000" value="50" class="slider2" id="myRange2">
+    <p class="texting"> My car drove (KM): <span id="demo2"></span></p>
   </div>
+
+  <div class="texting">
+    <button id="resultButton" class="button"> Let's compare </button>
+  </div>
+
+  <h1 id="result" class="texting"> </h1>
 
   <script src="suwak.js"></script>
 
