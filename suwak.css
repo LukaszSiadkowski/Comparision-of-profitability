@@ -22,20 +22,21 @@
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%; 
-  background: rgb(11, 24, 211);
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: url('samo.png');
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: rgb(11, 24, 211);
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: url('samo.png');
   cursor: pointer;
 }
+
 
 
 .slider2 {
@@ -53,18 +54,18 @@
 .slider2::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%; 
-  background: rgb(136, 28, 69);
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: url('samo1.png');
   cursor: pointer;
 }
 
 .slider2::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: rgb(136, 28, 69);
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: url('samo1.png');
   cursor: pointer;
 }
 .texting {
