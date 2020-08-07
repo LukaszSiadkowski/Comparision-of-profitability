@@ -6,7 +6,7 @@ const output2 = document.getElementById("demo2");
 const resultText = document.getElementById("result");
 const resultTextButton = document.getElementById("resultButton");
 
-
+//predictions
 
 const fuel = {
   price: 5, 
@@ -41,7 +41,7 @@ slider2.oninput = function() {
   return this.value
 }
 
-
+// below is calculate function
 
 function calculateFuelPrice () {
   let prices = {
