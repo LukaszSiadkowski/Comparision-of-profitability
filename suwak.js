@@ -9,7 +9,7 @@ const resultTextButton = document.getElementById("resultButton");
 //predictions
 
 const fuel = {
-  price: 5, 
+  price: 8, 
   // 5 to jest cena za 1 l benzyny .... 5 is a price for a 1 liter of petrol
   conbustion:{
     upstate: 5,
